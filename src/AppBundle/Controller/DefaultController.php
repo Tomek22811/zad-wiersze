@@ -86,6 +86,14 @@ public function cudAction()
     return $this->render('default/cud.html.twig');
 }
 
+    /**
+    * @Route("/cebula.html", name="cebula")
+    */
+    public function Cebula()
+    {
+        return $this->render('default/cebula.html.twig');
+    }
+
     /*
      * D
      */
